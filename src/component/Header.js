@@ -4,13 +4,17 @@ import{Link} from 'react-router-dom';
 class Header extends React.Component{
     render(){
         return(
-            <div>
+            <div className="app">
+                <button> Home </button>
+                <button> contact us </button>
+                <button> about us </button>
                 <Link to="Login">
                     <button> Login </button>
                 </Link>
                 <Link to="Register">
                     <button> Register </button>
                 </Link>
+                <button> Home </button>
             </div>
         )
     }
