@@ -4,17 +4,17 @@ import{Link} from 'react-router-dom';
 class Header extends React.Component{
     render(){
         return(
-            <div className="app">
-                <button> Home </button>
-                <button> contact us </button>
-                <button> about us </button>
+            <div className="header1">
+                <button style={{margin:"21px"}}> Home </button>
+                <button style={{margin:"21px"}}> contact us </button>
+                <button style={{margin:"21px"}}> about us </button>
                 <Link to="Login">
-                    <button> Login </button>
+                    <button style={{margin:"21px"}}> Login </button>
                 </Link>
                 <Link to="Register">
-                    <button> Register </button>
+                    <button style={{margin:"21px"}}> Register </button>
                 </Link>
-                <button> Home </button>
+                
             </div>
         )
     }
